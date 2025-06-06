@@ -1,0 +1,7 @@
+.swp
+config/production.yaml
+config/development.yaml
+build/
+Godeps/
+!Godeps/Godeps.json
+na3-auth

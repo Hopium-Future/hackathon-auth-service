@@ -1,0 +1,23 @@
+server:
+  port: 127.0.0.1:8386
+  logging: true
+
+apiKey: 123456a@
+
+jwt:
+  secret: my-secret
+  expiration: 1h # in hours
+
+telegram:
+  # Required. Telegram bot token (default)
+  default:
+    token: ...
+    expiration: 24h
+  
+  # For extra domains
+  hopium.dev: 
+    token: ...
+    expiration: 24h
+  staging.hopium.dev:
+    token: ...
+    expiration: 24h
